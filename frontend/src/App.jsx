@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import ApodViewer from "./pages/ApodViewer";
 import MarsRover from "./pages/MarsRover";
 import NeoTracker from "./pages/NeoTracker";
-import EPICViewer from "./pages/EPICViewer";
+import EPICViewer from "./pages/EpicViewer";
 
 export default function App() {
   return (
