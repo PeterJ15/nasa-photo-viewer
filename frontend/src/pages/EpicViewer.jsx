@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import { fetchEpic } from "../services/api";
 import Loader from "../components/Loader";
 
 export default function EPICViewer() {
@@ -10,9 +10,8 @@ export default function EPICViewer() {
   useEffect(() => {
     setLoading(true);
     setError(null);
-    axios
-      .get("/api/epic")
-      .then((res) => setImages(res.data))
+    fetchEpic()
+      .then((data) => setImages(data))
       .catch(() => setError("Could not fetch EPIC images."))
       .finally(() => setLoading(false));
   }, []);
