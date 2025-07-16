@@ -26,7 +26,7 @@ Explore the universe with interactive visuals powered by NASA's public APIs — 
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/nasa-explorer.git
+git clone https://github.com/PeterJ15/nasa-photo-viewer.git
 cd nasa-explorer
 ```
 
@@ -52,21 +52,8 @@ npm run dev
 
 ## 🌍 Live Demo
 
-- **Frontend**: [https://nasa-explorer.vercel.app](https://nasa-explorer.vercel.app)
-- **Backend**: [https://nasa-api-proxy.render.com](https://nasa-api-proxy.render.com)
-
----
-
-## 📸 Screenshots
-
-| Feature     | Preview                   |
-| ----------- | ------------------------- |
-| APOD Viewer | ![](screenshots/apod.png) |
-| Mars Photos | ![](screenshots/mars.png) |
-| NEO Chart   | ![](screenshots/neo.png)  |
-| EPIC Images | ![](screenshots/epic.png) |
-
-_Add animated GIF or screen recording for full demo if available._
+- **Frontend**: [https://nasa-photo-viewer-hwrwa8sh7-peters-projects-35632e92.vercel.app/](https://nasa-photo-viewer-hwrwa8sh7-peters-projects-35632e92.vercel.app/)
+- **Backend**: [https://nasa-photo-viewer.onrender.com/api](https://nasa-photo-viewer.onrender.com/api)
 
 ---
 
@@ -91,10 +78,3 @@ nasa-explorer/
 Huge thanks to [NASA Open APIs](https://api.nasa.gov) for providing open access to scientific data.
 
 ---
-
-## 💡 Future Improvements
-
-- 🔍 Add NASA image/video search interface
-- 🧪 Unit & integration testing (Jest, Vitest)
-- 📦 PWA version or offline image caching
-- 🤖 AI-powered astronomy quiz or chatbot
